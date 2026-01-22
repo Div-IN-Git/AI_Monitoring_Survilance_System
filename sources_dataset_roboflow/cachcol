@@ -1,0 +1,27 @@
+roboflow_smoke:
+  workspace: koncious
+  project: fire-smoke-detection-hm4cq-izd65
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koncious/fire-smoke-detection-hm4cq-izd65/dataset/1
+
+roboflow_fire:
+  workspace: koncious
+  project: fire-main
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koncious/fire-main/dataset/1
+
+roboflow_accident:
+  workspace: koncious
+  project: road-accident-bb6bc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koncious/road-accident-bb6bc/dataset/1
+
+roboflow_helmet:
+  workspace: koncious
+  project: helmet-fvpvv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/koncious/helmet-fvpvv/dataset/1
