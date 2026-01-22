@@ -8,6 +8,7 @@ A modern web application for real-time object detection in images and videos usi
 
 [Watch Demo on YouTube]  https://youtube.com/shorts/M3oUDMcT9rs?feature=share
 [GitHub Repository] https://github.com/Div-IN-Git/AI_Monitoring_Survilance_System
+[Demo Video] https://youtube.com/shorts/mwexsAFvQ2k?feature=share
 
 ---
 
@@ -68,5 +69,6 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 Feel free to reach out or contribute via pull request or issue!
 
 ---
+
 
 
