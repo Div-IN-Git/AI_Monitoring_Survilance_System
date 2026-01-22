@@ -16,9 +16,9 @@ A modern web application for real-time object detection in images and videos usi
 ## Features
 
 -  Real-time object detection (YOLO)
--  Upload image or video easily (drag & drop)
--  Dark mode styled UI
--  Reset and upload new file anytime
+-  Live video stream easily
+-  Office styled UI
+-  Stop/start feature available
 
 ---
 
@@ -70,6 +70,7 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 Feel free to reach out or contribute via pull request or issue!
 
 ---
+
 
 
 
