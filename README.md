@@ -6,8 +6,8 @@
 A modern web application for real-time object detection in images and videos using powerful **YOLO models**. Built with a **FastAPI** backend and a dynamic **JavaScript** frontend.
 
 
-[Watch Demo on YouTube]
-[GitHub Repository]
+[Watch Demo on YouTube]  https://youtube.com/shorts/M3oUDMcT9rs?feature=share
+[GitHub Repository] https://github.com/Div-IN-Git/AI_Monitoring_Survilance_System
 
 ---
 
@@ -34,40 +34,17 @@ A modern web application for real-time object detection in images and videos usi
    ```
 
 3. **Download YOLO models**
-   Put your models (e.g. `yolo11n.pt`) in the `models/` directory.
+   Put your models (e.g. `yolo26n.pt`) in the `models/` directory.
 
 4. **Run the app**
 
    ```bash
-   uvicorn app.main:app --reload
+   uvicorn app.app:app --reload
    ```
 
 5. Open `http://127.0.0.1:8000` in your browser.
 
 ---
-
-## Project Structure
-
-```
-YOLO-Object-Detection-App/
-├── app/                # FastAPI backend
-│   ├── image_processor.py
-│   ├── main.py
-│   ├── model_loader.py
-│   └── stream_processor.py
-├── static/             # Frontend JS/CSS
-│   ├── script.js
-│   ├── style.css
-│   └── index.html
-├── training/          # HTML template
-│   └── 
-├── models/            # YOLO .pt models
-│   ├── yolo11m
-│   ├── yolo11n
-│   └── yolo11s
-├── requirements.txt
-└── README.md
-```
 
 ## Tech Stack
 
@@ -88,3 +65,4 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 Feel free to reach out or contribute via pull request or issue!
 
 ---
+
