@@ -20,7 +20,11 @@ smoke = YOLO("models/smoke/best.pt")
 helmet = YOLO("models/helmet/best.pt")
 accident = YOLO("models/accident/best.pt")
 
-MODELS = [fire, smoke, helmet, accident]
+MODELS = [(fire, 0.4),
+          (smoke, 0.4),
+          (helmet, 0.5),
+          (accident, 0.55)
+]
 
 @app.get("/webcam")
 def webcam():
@@ -51,4 +55,5 @@ def webcam():
     return StreamingResponse(
         stream(),
         media_type="multipart/x-mixed-replace; boundary=frame"
+
     )
